@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/page_shorts"
+        android:enabled="true"
+        android:icon="@drawable/shorts_icon"
+        android:title="Shorts"
+        />
+
+
+    <item
+        android:id="@+id/page_subscription"
+        android:enabled="true"
+        android:icon="@drawable/subscriptions_icon"
+        android:title="Subscription"/>
+
+    <item
+        android:id="@+id/page_library"
+        android:enabled="true"
+        android:icon="@drawable/library_icon"
+        android:title="Library"/>
+</menu>

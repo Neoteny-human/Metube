@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/drawable/explore.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.19074074074074074" />
+        <entry key="app/src/main/res/layout/activity_profile_acitivy.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_subscriptions.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/activity_video_select.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/activity_video_trim.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/channel_post_item1.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/layout/channel_post_item2.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/channel_post_item3.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/channel_post_item4.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/create_bottomsheet.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/custom_control_bar.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/edittext_item.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/layout/fragment_about_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/fragment_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/fragment_channels_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/fragment_community_channel.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/fragment_home_channel.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_playlists_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/fragment_subscription.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_videos_channel.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/image.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/new_playlist_dialog.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/playlist_bottomsheet.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/layout/playlist_bottomsheet_item.xml" value="0.3351851851851852" />
+        <entry key="app/src/main/res/layout/post_image_item.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/post_vote_item.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/layout/recycler_video_item.xml" value="0.29444444444444445" />
+        <entry key="app/src/main/res/layout/video_select_gridview_item.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/video_thumb_item_layout.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/video_trimmer_view.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/vote_item.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.28020833333333334" />
+        <entry key="app/src/main/res/menu/bottom_navigation_no_login.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/home_video_menu.xml" value="0.1859375" />
+        <entry key="app/src/main/res/menu/post_threedots_menu.xml" value="0.2078125" />
+        <entry key="app/src/main/res/xml/custom.xml" value="0.14791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android ="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/explore_background"
+        />
+    <item
+        android:drawable="@drawable/explore_icon"
+        android:width="20dp"
+        android:height="20dp"
+        android:gravity="left|center"
+        android:left="10dp"
+        />
+    <item
+        android:drawable="@drawable/explore_letter"
+        android:width="40dp"
+        android:gravity="right|center"
+        android:right="10dp"
+        />
+</layer-list>

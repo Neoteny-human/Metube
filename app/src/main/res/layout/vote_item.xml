@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleY="8"
+        android:background="#fff"
+        android:backgroundTint="@color/white"
+        android:progress="40"
+        android:progressTint="@color/white"
+        />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="유튜브 프리미어"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30%"
+        android:textSize="17dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_vertical|right"
+        />
+</FrameLayout>
+
+
+
+

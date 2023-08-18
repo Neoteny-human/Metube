@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileAcitivy">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:src="@drawable/user"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김태원"
+        app:layout_constraintLeft_toRightOf="@id/user_image"
+        app:layout_constraintTop_toTopOf="@id/user_image"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/manageGoogleAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/user_name"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        android:text="Manage your Google Account"
+        android:textColor="#3F6EB5"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/addAccountImage"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        app:layout_constraintLeft_toLeftOf="@id/user_image"
+        android:src="@drawable/add_account"
+        app:layout_constraintTop_toBottomOf="@id/manageGoogleAccount"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/addAccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add account                        "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="@id/user_name"
+        app:layout_constraintTop_toTopOf="@id/addAccountImage"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:id="@+id/myChannelImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/my_channel"
+        app:layout_constraintLeft_toLeftOf="@id/user_image"
+        app:layout_constraintTop_toBottomOf="@+id/addAccountImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/myChannelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My channel                           "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="@id/user_name"
+        app:layout_constraintTop_toTopOf="@id/myChannelImage"
+        android:textSize="17sp"
+        android:layout_marginTop="3dp"
+        />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
